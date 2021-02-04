@@ -307,7 +307,7 @@ This should be done as follows:
 
 - Head to the `protoc releases page <https://github.com/google/protobuf/releases>`_
 - Download the latest ``protoc-*-*.zip`` release (e.g. ``protoc-3.12.3-win64.zip`` for 64-bit Windows)
-- Extract the contents of the downloaded ``protoc-*-*.zip`` in a directory ``<PATH_TO_PB>`` of your choice (e.g. ``C:\Program Files\Google Protobuf``)
+- Extract the contents of the downloaded ``protoc-*-*.zip`` in a directory ``<PATH_TO_PB>`` of your choice (e.g. ``C:\Program Files\Google Protobuf\bin``)
 - Add ``<PATH_TO_PB>`` to your ``Path`` environment variable (see :ref:`set_env`)
 - In a new `Terminal` [#]_, ``cd`` into ``TensorFlow/models/research/`` directory and run the following command:
 
